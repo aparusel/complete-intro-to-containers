@@ -8,7 +8,7 @@ description: "Docker has a special file called a `Dockerfile` which allows you t
 
 So far we've been focusing a lot on running containers and haven't much dug into building them. This is on purpose because most of benefit of containers for developers comes from the running of containers. If you learn one thing, it should be how to run them.
 
-That said, let's learn to build our own containers. We'll again be using Docker for this though there are other ways to do this. Docker has a special file called a `Dockerfile` which allows you to outline how a container will be built. Each line in a Docker file is a new a directive of how to change your Docker container.
+That said, let's learn to build our own containers. We'll again be using Docker for this though there are other ways to do this. Docker has a special file called a `Dockerfile` which allows you to outline how a container will be built. Each line in a Docker file is a new directive of how to change your Docker container.
 
 A _big key_ with Docker container is that they're supposed to be disposable. You should be able to create them and throw them away as many times as necessary. In other words: adopt a mindset of making everything short-lived. There are other, better tools for long-running, custom containers.
 
